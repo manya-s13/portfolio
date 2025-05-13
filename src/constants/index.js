@@ -103,31 +103,32 @@ const techStackImgs = [
 const techStackIcons = [
   {
     name: "FullStack Developer",
-    modelPath: "/models/react_logo-transformed.glb",
+    imagePath: "/images/logos/pern.png",
     scale: 1,
     rotation: [0, 0, 0],
   },
   {
     name: "React Developer",
+    imagePath: "/images/logos/react.png",
     modelPath: "/models/python-transformed.glb",
     scale: 0.8,
     rotation: [0, 0, 0],
   },
   {
     name: "NextJS Developer",
-    modelPath: "/models/node-transformed.glb",
+    imagePath: "/images/logos/nextjs.png",    
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
   },
   {
     name: "Devops",
-    modelPath: "/models/three.js-transformed.glb",
+    imagePath: "/images/logos/Docker.png",
     scale: 0.05,
     rotation: [0, 0, 0],
   },
   {
     name: "Backend Developer",
-    modelPath: "/models/git-svg-transformed.glb",
+    imagePath: "/images/logos/node.png",
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
   },
