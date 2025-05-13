@@ -1,10 +1,12 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import ShowcaseSection from "./ShowcaseSection";
 
-import AnimatedCounter from "../components/AnimatedCounter";
+// import AnimatedCounter from "../components/AnimatedCounter";
 import Button from "../components/Button";
 import { words } from "../constants";
 import HeroExperience from "../components/models/hero_models/HeroExperience";
+import { Sphere } from "@react-three/drei";
 
 const Hero = () => {
   useGSAP(() => {
@@ -47,11 +49,10 @@ const Hero = () => {
                 </span>
               </h1>
               <h1>into Real Projects</h1>
-              <h1>that Deliver Results</h1>
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I’m Adrian, a developer based in Croatia with a passion for
+              Hi, I’m Manya, a developer based in India with a passion for
               code.
             </p>
 
@@ -70,8 +71,7 @@ const Hero = () => {
           </div>
         </figure>
       </div>
-
-      <AnimatedCounter />
+      {/* <ShowcaseSection /> */}
     </section>
   );
 };
