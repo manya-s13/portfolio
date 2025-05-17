@@ -17,7 +17,7 @@ const TechStack = () => {
       ".tech-card",
       {
         // Initial values
-        y: 50, // Move the cards down by 50px
+        y:50, // Move the cards down by 50px
         opacity: 0, // Set the opacity to 0
       },
       {
@@ -50,7 +50,7 @@ const TechStack = () => {
           {techStackIcons.map((techStackIcon) => (
             <div
               key={techStackIcon.name}
-              className="card-border tech-card overflow-hidden group xl:rounded-full rounded-lg"
+              className="card-border tech-card overflow-hidden group xl:rounded-3xl rounded-lg"
             >
               {/* The tech-card-animated-bg div is used to create a background animation when the 
                   component is hovered. */}

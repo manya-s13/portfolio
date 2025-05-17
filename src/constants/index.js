@@ -102,20 +102,20 @@ const techStackImgs = [
 
 const techStackIcons = [
   {
-    name: "FullStack Developer",
-    imagePath: "/images/logos/pern.png",
+    name: "TypeScript",
+    imagePath: "/images/logos/TypeScript.png",
     scale: 1,
     rotation: [0, 0, 0],
   },
   {
-    name: "React Developer",
+    name: "React",
     imagePath: "/images/logos/react.png",
     modelPath: "/models/python-transformed.glb",
     scale: 0.8,
     rotation: [0, 0, 0],
   },
   {
-    name: "NextJS Developer",
+    name: "NextJS",
     imagePath: "/images/logos/nextjs.png",    
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
@@ -127,12 +127,41 @@ const techStackIcons = [
     rotation: [0, 0, 0],
   },
   {
-    name: "Backend Developer",
-    imagePath: "/images/logos/node.png",
+    name: "Node.js",
+    imagePath: "/images/logos/Node.js.png",
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
   },
-  
+  {
+    name: "AWS",
+    imagePath: "/images/logos/AWS.png",
+    scale: 0.05,
+    rotation: [0, -Math.PI / 4, 0],
+  },
+  {
+    name: "JavaScript",
+    imagePath: "/images/logos/JavaScript.png",
+    scale: 0.05,
+    rotation: [0, -Math.PI / 4, 0],
+  },
+  {
+    name: "MongoDB",
+    imagePath: "/images/logos/MongoDB.png",
+    scale: 0.05,
+    rotation: [0, -Math.PI / 4, 0],
+  },
+  {
+    name: "PostgresSQL",
+    imagePath: "/images/logos/PostgresSQL.png",
+    scale: 0.05,
+    rotation: [0, -Math.PI / 4, 0],
+  },
+  {
+    name: "Java",
+    imagePath: "/images/logos/Java.png",
+    scale: 0.05,
+    rotation: [0, -Math.PI / 4, 0],
+  },
 ];
 
 const expCards = [
@@ -161,15 +190,15 @@ const expCards = [
     ],
   },
   {
-    review: "Tech Stack: React JS, Node.js, Express.js, MongoDB, NewsAPI",
+    review: "Tech Stack: React JS, Node.js, Express.js, MongoDB, Web sockets",
     // imgPath: "/images/exp3.png",
     // logoPath: "/images/logo3.png",
-    title: "News Aggregator",
-    date: "March 2025",
+    title: "DirectChat",
+    date: "May 2025",
     responsibilities: [
-      "Build a news platform that curates articles based on user interests, reading habits, and trending topics,featuring real-time updates.",
-      "Integrated third-party APIs (NewsAPI) to fetch, filter, and display live news articles across various categories such as technology, sports, and entertainment.",
-      "Enabled user authentication with JWT and developed personalized dashboards to allow users to save articles, set preferences, and view their reading history.",
+      "Developed a real-time bidirectional communication chat app using Socket.io, enabling instant message delivery, and online status updates for an enhanced user experience.",
+      "Implemented secure media sharing functionality that allows users to upload, store, and share images within conversations, integrating with MongoDB for efficient storage and retrieval.",
+      "Created comprehensive user profile management system with customizable avatars, personal information fields, and edit capabilities, ensuring a personalized and engaging platform.",
     ],
   },
 ];

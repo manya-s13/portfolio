@@ -46,10 +46,11 @@ const AppShowcase = () => {
   return (
     <div id="work" ref={sectionRef} className="app-showcase">
       <div className="w-full">
+     {/* <h1 className="text-center text-3xl font-bold mb-8">My Projects</h1> */}
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
+              <img src="/images/project1.png" alt="CloudDocs" />
             </div>
             <div className="text-content">
               <h2>
@@ -64,20 +65,20 @@ const AppShowcase = () => {
 
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={libraryRef}>
-              <div className="image-wrapper bg-[#cef4ff]">
+              <div className="image-wrapper bg-[#72a5fe]">
                 <img
                   src="/images/project2.png"
-                  alt="Library Management Platform"
+                  alt="Blogify"
                 />
               </div>
               <h2>Blogify: A platform for writing, sharing & reading blogs</h2>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
-              <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="YC Directory App" />
+              <div className="image-wrapper bg-[#e7c6f9]">
+                <img src="/images/project3.png" alt="chat app" />
               </div>
-              <h2>News Aggregator</h2>
+              <h2>DirectChat: A Chat Application</h2>
             </div>
           </div>
         </div>

@@ -71,7 +71,8 @@ const Hero = () => {
           </div>
         </figure>
       </div>
-      {/* <ShowcaseSection /> */}
+      <h1 className="text-center font-bold text-4xl">My projects</h1>
+      <ShowcaseSection />
     </section>
   );
 };
